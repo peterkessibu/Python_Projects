@@ -7,7 +7,7 @@ rules = '''
         '''
 
 def calculate_winner(player, computer):
-    """Determines the winner based on player and computer choices."""
+    #Determines the winner based on player and computer choices.
     if player == computer:
         return "Tie"  
     elif player == "rock":
